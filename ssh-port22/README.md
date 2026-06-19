@@ -43,7 +43,7 @@ the attacker machine.
 
 ## Result
 The authentication log captured the login attempts from the Kali host,
-showing how every connection — successful or failed - is recorded on the
+showing how every connection - successful or failed - is recorded on the
 target. The screenshot below shows these log entries.
 
 <img width="1280" height="1706" alt="SSH auth log entries" src="https://github.com/user-attachments/assets/a9501fd5-3f6d-4228-a78b-a507d45df758" />
@@ -58,7 +58,7 @@ target. The screenshot below shows these log entries.
   login attempt leaves a trace, which is exactly what a SIEM or
   monitoring setup would alert on. This is the link between offense and
   detection.
-- Maps to MITRE ATT&CK **T1021.004 – Remote Services: SSH**.
+- Maps to MITRE ATT&CK **T1021.004 - Remote Services: SSH**.
 
 ## Lessons Learned
 SSH was confusing at first - understanding the different authentication
